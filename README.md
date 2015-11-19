@@ -1,4 +1,22 @@
-A WordPress theme for honisoit.com named for the somewhat fictional Executive Editor of the somewhat fictional rag The Garter Press, based on the exceedingly competent starter theme Sage whose information shall occupy the remainder of this "Readme.md":
+A WordPress theme for honisoit.com named for the somewhat fictional Executive Editor of the somewhat fictional rag The Garter Press, based on the exceedingly competent starter theme Sage whose information shall occupy the last part of this "Readme.md".
+
+## How to Install
+1. Make a folder with a name.
+2. Clone Trellis into that folder.
+3. Clone Bedrock into that folder and rename it "site".
+4. Run `cd trellis` to move into the Trellis folder and run `vagrant up` for the first time. This will download and install everything you need for the virtual machine.
+5. Navigate to `/site/web/app/themes/` and clone `huntingslow`.
+6. Navigate into huntingslow
+7. Run `npm install` to install gulp and other plugins.
+8. Run `bower install` to install bootstrap and other static assets.
+9. Run `gulp watch` to start watching for changes and refreshing the browser.
+
+## Development
+1. Go to the `trellis` folder and `vagrant up`.
+2. Use github to check your copy of `huntingslow` is up to date.
+3. Navigate to the theme folder and run `gulp watch`
+4. Enjoy.
+
 
 # [Sage](https://roots.io/sage/)
 [![Build Status](https://travis-ci.org/roots/sage.svg)](https://travis-ci.org/roots/sage)
